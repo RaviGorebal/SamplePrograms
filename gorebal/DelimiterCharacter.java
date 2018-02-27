@@ -6,7 +6,7 @@ import java.util.StringTokenizer;
 
 public class DelimiterCharacter {
 		
-//		Comment
+
 	public static void main(String args[])
 	  {		
 		ArrayList<Integer> al=new ArrayList<Integer>();
