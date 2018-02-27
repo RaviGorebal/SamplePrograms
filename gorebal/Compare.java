@@ -13,7 +13,7 @@ public class Compare implements Comparator{
 		    aStr = (String) a;
 		    bStr = (String) b;
 
-		    // reverse the comparison
+		    
 		    return aStr.compareTo(bStr);
 		  }
 
