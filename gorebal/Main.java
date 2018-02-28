@@ -1,6 +1,8 @@
 
 package ravi.gorebal;
 
+// count the repeats characters
+
 import java.util.HashMap;
 import java.util.Scanner;
 
