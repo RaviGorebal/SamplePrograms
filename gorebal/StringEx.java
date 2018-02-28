@@ -10,3 +10,5 @@ public class StringEx {
 	}
 
 }
+
+// from github
