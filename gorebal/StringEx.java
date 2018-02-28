@@ -10,3 +10,7 @@ public class StringEx {
 	}
 
 }
+
+
+
+//from eclipse
