@@ -3,6 +3,8 @@ package ravi.gorebal;
 
 //from eclipse
 
+// count the repeats characters
+
 import java.util.HashMap;
 import java.util.Scanner;
 
