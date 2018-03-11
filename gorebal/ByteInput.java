@@ -14,7 +14,8 @@ public class ByteInput {
       if (i != -1) {
         result = org.substring(0, i);
         result = result + sub;
-        result = result + org.substring(i + search.length());
+        String  str = org.substring(i + search.length());
+        result = result + str;
         org = result;
       }
     } while (i != -1);

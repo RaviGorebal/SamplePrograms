@@ -7,7 +7,7 @@ public class VerifyLetter {
 	public static void main(String args[]){
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.println("program require a string:");
+		System.out.println("program require a character:");
 		String str=scan.nextLine();
 		
 		if(str.length()!=1){
@@ -23,7 +23,7 @@ public class VerifyLetter {
 			
 			System.out.println(str.charAt(0) +" lowercase letter");
 		}else{			
-			System.out.println("Enter a string");
+			System.out.println("Enter a character");
 		}
 		
 		
