@@ -6,6 +6,7 @@ public class StringEx {
 	{
 		String a[]=new String[1001];
 		a[0]="Satish";
+		System.out.println(a[0].length());
 		System.out.println(a.length);
 	}
 
