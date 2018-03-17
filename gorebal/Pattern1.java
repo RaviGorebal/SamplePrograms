@@ -30,4 +30,4 @@ public class Pattern1 {
 }
 
 
-
+// char
