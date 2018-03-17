@@ -30,14 +30,16 @@ public class Employee implements Comparable<Employee>,Comparator<Employee> {
 	}
 	@Override
 	public int compare(Employee o1, Employee o2) {
-		// TODO Auto-generated method stub
+		
 		
 		return o1.age-o2.age;
 	}
 	@Override
 	public int compareTo(Employee o) {
-		// TODO Auto-generated method stub
+		
 		return this.name.compareTo(o.name);
 	}
 
 }
+
+
