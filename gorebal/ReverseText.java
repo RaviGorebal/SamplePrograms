@@ -1,31 +1,23 @@
 
 package ravi.gorebal;
 
-import javax.xml.stream.events.Characters;
 
 public class ReverseText{
-	public static void main(String args[]){
-		 {
-		      String str = "world money";
-		      String[] split= str.split("");
+	public static void main(String args[]) {		    
+		  	
+		  	String s3="ravi is good boy";
 
-		      String revers = "";
-		      String revers1 = "";
-		      for (int i = 0; i<=split.length-1; i++)
-		    	  
-		      {		   
-//		    	  for(int j=i; j<=i;j--){
-//		    	  revers += split[j];
-//		    	  }
-		    	  System.out.print(split[i].length());
-		      }
-		      
-		      
-//		      System.out.println(revers);
-		    
-		     
-		   }  
-        
-      
-         }	
-}
+		  	String s4[]=s3.split(" ");
+		  	for(int i=0; i<=s4.length-1; i++)
+		  	{
+		  		String reverse = "";
+		  		 	for(int j=s4[i].length()-1;j>=0;j--){
+		  		 		
+		  		 		char a = s4[i].charAt(j);		  		 		
+		  		 		reverse  = reverse + a;		  		 		
+		  		 	} 
+		  		 	
+		  		 	System.out.print(reverse +" ");	
+		  	}		  	
+		   }          
+	   }
