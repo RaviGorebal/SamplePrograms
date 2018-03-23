@@ -7,7 +7,7 @@ import java.util.List;
 //step1: convert from arrays to arraylist 
 //step2: adding the elements in arraylist
 //step: display the elements contains in arraylist
-
+//
 
 public class ArrayListTOArray {
 	
