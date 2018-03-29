@@ -9,7 +9,7 @@ public class CountValues {
 	
 	public static void main(String args[]){		
 		
-		List<Integer> list = new ArrayList<>();
+		ArrayList<Integer> list = new ArrayList<Integer>();
 		
 		list.add(2);
 		list.add(2);
@@ -18,7 +18,7 @@ public class CountValues {
 		list.add(6);
 		System.out.println("List contains elements are : " + list);
 		
-		Set<Integer> set = new HashSet<>(list);
+		Set<Integer> set = new HashSet<Integer>(list);
 		
 		for(int x:set){
 			int count=0;

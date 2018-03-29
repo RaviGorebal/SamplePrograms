@@ -13,7 +13,7 @@ public class ArrayListTOArray {
 	
 	public static void main(String args[]){
 		
-		String str[] = {"ravi","kumar"};
+		String str[] = {"ravi","kumar","ravikumargorebal"};
 		
 		List<String> list = new ArrayList<>(Arrays.asList(str));
 		

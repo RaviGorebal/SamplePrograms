@@ -15,23 +15,21 @@ public class ArrayListclass {
 		list.add("ravi");
 		list.add("kumar");
         list.add("ravi");
+        list.add("ravi");
+        list.add("ravi");
+        list.add("ravi");
+        list.add("ravi");
         
         System.out.println(list);
         
         Set<String> set = new HashSet(list);
         
         for (String temp:set){
-//        	System.out.println(temp);
         	
-        	Collections.frequency(list, temp);
-//        	   System.out.println(temp);
-        	
-        }
-        
-        System.out.println(set);
-		
+        	System.out.println(temp + " contains are "+ Collections.frequency(list, temp));        	   
+        }        
+        System.out.println(set);		
 	}
-
 }
 
 
