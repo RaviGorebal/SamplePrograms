@@ -5,8 +5,11 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.logging.Logger;
 
 public class ArrayListclass {
+	
+	 static java.util.logging.Logger log = Logger.getLogger(ArrayListclass.class.getName());
 	
 	public static void main(String args[]){
 		
@@ -21,6 +24,10 @@ public class ArrayListclass {
         list.add("ravi");
         
         System.out.println(list);
+//        log.debug("Hello this is a debug message");
+        log.info("Hello this is an info message");
+    
+       
         
         Set<String> set = new HashSet(list);
         
