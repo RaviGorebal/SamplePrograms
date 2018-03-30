@@ -18,5 +18,9 @@ public class JunitTesting {
 		}
 		return count;
 	}
+	
+	public int cube(int n){
+		return n*n*n;		
+	}
 
 }
