@@ -1,5 +1,5 @@
 
-package ravi.gorebal;
+package ravi.SamplePrograms.gorebal;
 
 import java.util.Collection;
 import java.util.Collections;

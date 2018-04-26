@@ -1,4 +1,4 @@
-package ravi.gorebal;
+package ravi.SamplePrograms.gorebal;
 
 public class SortedCharacter {
 	static String str = "ravi";

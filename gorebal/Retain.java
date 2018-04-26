@@ -1,4 +1,4 @@
-package ravi.gorebal;
+package ravi.SamplePrograms.gorebal;
 
 import java.util.ArrayList;
 import java.util.List;

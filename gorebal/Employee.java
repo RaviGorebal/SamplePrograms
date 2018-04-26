@@ -1,4 +1,4 @@
-package ravi.gorebal;
+package ravi.SamplePrograms.gorebal;
 
 import java.io.ObjectInputStream.GetField;
 import java.util.Comparator;
