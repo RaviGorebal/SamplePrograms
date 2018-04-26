@@ -1,4 +1,4 @@
-package ravi.collection;
+package ravi.SamplePrograms.collection;
 
 import java.util.ArrayList;
 import java.util.Arrays;
