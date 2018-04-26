@@ -4,13 +4,9 @@ public class Permute {
 	
 	public static void main(String args[]) {
 		
-		String str = "abc";
-		
-		int length = str.length();
-		
-		char ch[] = str.toCharArray();
-		
-		
+		String str = "abc";		
+		int length = str.length();		
+		char ch[] = str.toCharArray();		
 		permute(ch,0);
 	}
 	
